@@ -5,13 +5,12 @@ title: Brainstorm
  
 ## Introdução
 <p align = "justify">
-O brainstorm é uma técnica de elicitação de requisitos que consiste em reunir a equipe e discutir sobre diversos tópicos gerais do projeto apresentados no documento problema de negócio. No brainstorm o diálogo é incentivado e críticas são evitadas para permitir que todos colaborem com suas próprias ideias.
+O brainstorming é uma técnica vital para a elicitação de requisitos, possibilitando a colaboração e discussão sobre os diferentes aspectos do projeto de forma criativa e aberta. Durante essa atividade, o diálogo é incentivado para garantir a contribuição de todas as ideias, enquanto as críticas são evitadas para promover um ambiente colaborativo.
 </p>
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
-</p>
+A equipe se reuniu para debater ideias gerais sobre o projeto via discord, iniciando às 21h e encerrando às 01h, dividimos as tarefas para cada integrante do grupo, levando em consideração suas afinidades e habilidades específicas. Conversamos entre nós para garantir que todos os aspectos do projeto fossem abordados de maneira completa e organizada. Além das discussões no Discord, também utilizamos o WhatsApp para comunicação instantânea e fizemos uso de um quadro Kanban no Trello para gerenciar o progresso das tarefas e manter todos os membros da equipe atualizados sobre o status do projeto. Antes da apresentação, realizamos uma reunião para avaliar se tudo estava de acordo com o planejado e fazer os ajustes necessários. As respostas e ideias discutidas foram posteriormente transcritas para documentação, garantindo que nenhum detalhe importante fosse perdido.
  
 ## Brainstorm
  
@@ -22,16 +21,16 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa...
+<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa encontrar produtos disponíveis em lojas físicas próximas para entrega imediata por aplicativo.
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornece...
+<b>ZZZ</b> - A plataforma deve fornecer uma maneira adequada para os usuários acessarem uma variedade de produtos em tempo real e recebê-los em até 2 horas.
  
-<b>YYYY</b> - O objetivo da aplicação é....
+<b>YYYY</b> - - O objetivo da aplicação é conectar clientes com lojas físicas em sua região para uma experiência de compra rápida e conveniente.
  
-<b>WWWW</b> - O principal objetivo da aplicação é a...
+<b>WWWW</b> -  O principal objetivo da aplicação é fazer de um aplicativo shopping virtual, oferecendo entrega rápida de produtos disponíveis nas lojas físicas locais.
  
-<b>KKKK</b> - A plataforma deve gerenciar...
+<b>KKKK</b> - A plataforma deve gerenciar o processo de compra e entrega dos produtos de forma eficiente, garantindo uma boa experiência para os usuários para os usuários.
 </p>
  
 ---

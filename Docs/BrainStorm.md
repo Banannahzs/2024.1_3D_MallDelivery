@@ -123,7 +123,7 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
 > Slides aula Metologias Ágeis; Professora Rebeca Campos Motta.
  
  
-## Autor(es)
+## Autor
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 10/04/2024 | 1.0 | Criação do documento | Beatriz Babinski |

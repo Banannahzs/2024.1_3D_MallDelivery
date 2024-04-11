@@ -67,7 +67,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 ---
  
-### 4. Outras informaações pertinentes ao contexto
+### 4. Outras informações pertinentes ao contexto
 
 <p align = "justify">
 <b>•</b> Com a localização do usuário, a plataforma pode oferecer uma lista personalizada de lojas e produtos disponíveis nas proximidades.
@@ -85,11 +85,9 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
-   <b>•</b> Informações...
+   <b>•</b> Para deixar a experiência de compra mais fácil e agradável, nosso aplicativo oferece algumas informações úteis para os clientes. Eles podem ***acompanhar seus pedidos em tempo real***, _saber quando seus produtos serão entregues_ e _ler descrições detalhadas dos itens_ que desejam comprar. Além disso, _notificamos sobre ofertas especiais e eventos importantes_, mantendo-os atualizados. Os clientes também têm _acesso ao histórico de suas compras_ anteriores e podem _entrar em contato conosco_ facilmente se precisarem de ajuda.
    
-   <b>•</b> O cliente usuário poderá acessar informações...
 
-   <b>•</b> Informações sobre os produtos disponíveis nas lojas físicas próximas, incluindo detalhes como descrição, preço e avaliações de outros clientes.
    
 </p>
  

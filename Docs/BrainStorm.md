@@ -96,11 +96,11 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 |ID|Descrição|
 |----|-------------|
-|BS01| O cliente...|
-|BS02| O cliente...|
-|BS03| O cliente...|
-|BS04| O cliente...|
-|BS05| O cliente...|
+|BS01| Os lojistas devem ter a capacidade de se registrar na plataforma, fornecendo informações como nome da loja, localização, categorias de produtos oferecidos e horários de funcionamento.|
+|BS02||O aplicativo e a plataforma web devem ser compatíveis com uma ampla variedade de dispositivos e sistemas operacionais, assegurando uma experiência consistente e acessível para todos os usuários.|
+|BS03| A plataforma deve integrar-se perfeitamente com APIs de sistemas externos, como pontos de venda das lojas, serviços de logística para entregas e processadores de pagamento, garantindo uma experiência de usuário consistente.|
+|BS04| Os clientes devem desfrutar de um processo de compra simplificado e intuitivo, permitindo que encontrem, selecionem e comprem produtos com facilidade, com a opção de agendar entregas dentro do prazo de até 2 horas.|
+|BS05A|A plataforma deve utilizar os serviços de geolocalização para identificar a localização dos usuários.|
 |BS06| O cliente...|
 |BS07| O cliente...|
 |BS08| O cliente...|

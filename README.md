@@ -15,6 +15,8 @@
 Descreva o seu projeto em linhas gerais. 
 
 ## Screenshots
+
+ Quadro Kanban
 ![image](https://github.com/Banannahzs/2024.1_3D_MallDelivery/assets/127142664/a95577cc-98b0-4643-a54e-2836732048b6)
 
 

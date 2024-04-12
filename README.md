@@ -15,7 +15,8 @@
 Descreva o seu projeto em linhas gerais. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
+![image](https://github.com/Banannahzs/2024.1_3D_MallDelivery/assets/127142664/a95577cc-98b0-4643-a54e-2836732048b6)
+
 
 ## Instalação 
 **Linguagens**: xxxxxx<br>
@@ -24,4 +25,3 @@ Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.

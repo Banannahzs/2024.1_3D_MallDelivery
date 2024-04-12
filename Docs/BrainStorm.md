@@ -14,7 +14,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 ## Brainstorm 🧠
  
-## Versão 1.0
+## Versão 1.0 ⚡
  
 ## Perguntas
  
@@ -131,18 +131,18 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 |BS15|O sistema deve exigir que os usuários se autentiquem com credenciais válidas (como e-mail ou número de telefone) para acessar os recursos da plataforma, garantindo a segurança das informações do usuário.|
 
  
-## Conclusão
+## Conclusão 🧨
 <p align = "justify">
 Através da aplicação da técnica, foi possível elicitar alguns dos primeiros requisitos do projeto.
 </p>
-## Referências Bibliográficas
+## Referências Bibliográficas 📚
  
 > BARBOSA, S. D. J; DA SILVA, B. S. Interação humano-computador. Elsevier, 2010.
 > Slides aula Engenharia de Requisitos; Professora Rebeca Campos Motta.
 > Slides aula Metologias Ágeis; Professora Rebeca Campos Motta.
  
  
-## Autor
+## Autor 😍
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 10/04/2024 | 1.0 | Criação do documento | Beatriz Babinski |

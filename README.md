@@ -10,7 +10,8 @@
 |202301165768 |  Beatriz Ferreira Babinski |
 |202301135168 |  Hannah Martins Lima |
 |202303551622 |  Guilherme Vallim Araujo |
-
+|202303100418 |   André Casemiro    |   
+|202208935079 |  Fernando Mendonça  |
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
 

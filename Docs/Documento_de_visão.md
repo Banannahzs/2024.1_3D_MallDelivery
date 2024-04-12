@@ -22,4 +22,4 @@ de pesquisar por produtos específicos e adicioná-los no carrinho para, posteri
 O aplicativo utiliza geolocalização e raio de abrangência para que a entrega possa partir de um shopping próximo e garantir que a entrega seja feita em até 2 horas.
 
 ## Conclusão:
-
+Concluindo, o Mall Delivery pretende se tornar uma opção eficiente para aqueles que desejam comprar produtos rapidamente sem precisar sair de casa. Ele funcionará como um verdadeiro shopping virtual, possibilitando que os lojistas disponibilizem seus produtos, para que os clientes possam visualizá-los e adicionar o que desejar ao carrinho. O cliente deve poder adicionar diversos itens ao carrinho e, quando estiver pronto, seguir para o pagamento. Através do desenvolvimento da API e da criação desse ecossistema, o aplicativo pretende conectar as lojas físicas aos clientes de forma ágil e conveniente.

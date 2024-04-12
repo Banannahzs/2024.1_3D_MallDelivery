@@ -26,11 +26,10 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 <b>•</b> A plataforma deve fornecer uma maneira adequada para os usuários acessarem uma variedade de produtos em tempo real e recebê-los em até 2 horas.
  
-<b>•</b> O objetivo da aplicação é conectar clientes com lojas físicas em sua região para uma experiência de compra rápida e .
+<b>•</b> O objetivo da aplicação é conectar clientes com lojas físicas em sua região para uma experiência de compra rápida e segura.
  
-<b>•</b> O principal objetivo da aplicação é fazer de um aplicativo shopping virtual, oferecendo entrega rápida de produtos disponíveis nas lojas físicas locais.
+<b>•</b> O foco é fazer de um aplicativo shopping virtual, oferecendo entrega rápida de produtos disponíveis nas lojas físicas locais.
  
-<b>•</b> A plataforma deve gerenciar o processo de compra e entrega dos produtos de forma eficiente, garantindo uma boa experiência para os usuários.
 </p>
  
 ---

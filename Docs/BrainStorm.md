@@ -64,6 +64,20 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 
 ---
+
+
+
+### 4. Como seria a forma de adicionar do cliente adicionar os produtos ao carinho ?
+<p align = "justify">
+<b>•</b> Basta clicar em "Adicionar ao Carrinho". 
+ 
+<b>•</b> Depois de fazer o pedido, o cliente poderá acompanhar o trajeto do entregador em tempo real. 
+
+<b>•</b> Nossa promessa é entregar seus produtos em até 2 horas após a compra. 
+
+
+
+---
  
 ### 4. Outras informações pertinentes ao contexto
 
@@ -76,9 +90,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 ---
  
-### 5. Como seria a forma de adicionar do cliente adicionar os produtos ?
-<p align = "justify">
-<b>•</b> O cliente deve acessar sua conta de lojista e seguir o processo de adição de produtos, incluindo a especificação de detalhes como nome, descrição, preço e disponibilidade.
+
+
 </p>
  
 ### 6. Quais informações seriam interessante para o cliente?

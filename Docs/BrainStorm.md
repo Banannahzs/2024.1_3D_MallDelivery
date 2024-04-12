@@ -51,10 +51,10 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 ---
  
-### 3. Como será a forma de adicionar produtos?
+### 3. Como será a forma de adicionar produtos ao estoque da loja?
  
 <p align = "justify">
-<b>•</b>  O cliente, após ser cadastrado como uma loja parceira, deve acessar sua conta e selecionar a opção de "Adicionar Produto", onde poderá inserir os detalhes do produto disponível em estoque
+<b>•</b>  O cliente lojista, após ser cadastrado como uma loja parceira, deve acessar sua conta e selecionar a opção de "Adicionar Produto", onde poderá inserir os detalhes do produto disponível em estoque
 </p>
  
 <p align = "justify">
@@ -62,9 +62,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 <b>•</b> O cliente deve fornecer à equipe administrativa uma lista dos produtos disponíveis em sua loja física para que sejam adicionados à plataforma.
  
-<b>•</b> A equipe administrativa deve trabalhar em conjunto com o cliente para garantir que os produtos sejam corretamente adicionados ao sistema da plataforma.
 
- 
 ---
  
 ### 4. Outras informações pertinentes ao contexto

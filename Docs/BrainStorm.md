@@ -38,15 +38,14 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 
  
 <p align = "justify">
-<b>•</b> O moderador deverá fazer login no sistema de administração da plataforma e acessar a opção de cadastro de novas lojas físicas.
+<b>•</b> Os clientes podem se cadastrar ao baixar e acessar o aplicativo, inserindo todas as informações necessárias diretamente na plataforma. Isso inclui dados pessoais, endereço e-mail e senha.
  
-<b>•</b> O cliente interessado em se cadastrar como uma loja parceira deve preencher um formulário online com detalhes sobre sua localização e produtos oferecidos.
+<b>•</b> Os clientes, depois de cadastrados e logados, conseguem ter acesso ao " shopping virtual"
  
-<b>•</b> Com o usuário logado em sua conta de lojista, ele deverá acessar a seção de configurações e selecionar a opção de "Cadastrar Nova Loja".
-
-<b>•</b> O cliente deve entrar em contato com a equipe administrativa da plataforma para iniciar o processo de cadastramento como uma loja física parceira.
+<b>•</b> Os lojistas, precisam de uma aprovação do administrador da plataforma para garantir a qualidade e integridade das lojas no Marketplace.
  
-<b>•</b> O cliente interessado em se cadastrar como uma loja parceira deve acessar o site da plataforma e seguir as instruções fornecidas para iniciar o processo de cadastr
+<b>•</b> Depois de aprovados, os vendedores devem fornecer uma série de informações para completar seu perfil no app. Isso inclui dados como CNPJ, endereço,logotipos e foto de seus produtos.
+ 
  
 ---
  

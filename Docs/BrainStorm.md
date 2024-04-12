@@ -109,31 +109,29 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 |ID|Descrição|
 |----|-------------|
-|BS01| Os lojistas devem ter a capacidade de se registrar na plataforma, fornecendo informações como nome da loja, localização, categorias de produtos oferecidos e horários de funcionamento.|
-|BS02| O aplicativo e a plataforma web devem ser compatíveis com uma ampla variedade de dispositivos e sistemas operacionais, assegurando uma experiência consistente e acessível para todos os usuários.|
-|BS03| A plataforma deve integrar-se perfeitamente com APIs de sistemas externos, como pontos de venda das lojas, serviços de logística para entregas e processadores de pagamento, garantindo uma experiência de usuário consistente.|
+|BS01| Os lojistas devem ter a capacidade de se registrar na plataforma, fornecendo informações como nome da loja, localização, categorias de produtos oferecidos, horários de funcionamento, cnpj, logo e banners.|
+|BS02| O aplicativo deve ser compatível com uma ampla variedade de dispositivos e sistemas operacionais.|
+|BS03| O sistema deve integrar-se perfeitamente com APIs de sistemas externos, como pontos de venda das lojas, serviços de logística para entregas e pagamento.|
 |BS04| Os clientes devem desfrutar de um processo de compra simplificado e intuitivo, permitindo que encontrem, selecionem e comprem produtos com facilidade, com a opção de agendar entregas dentro do prazo de até 2 horas.|
-|BS05A| O sistema deve utilizar os serviços de geolocalização para identificar a localização dos usuários.|
-|BS06| O sistema deve fornecer uma interface de cadastro intuitiva e amigável, permitindo que novos clientes preencham facilmente suas informações pessoais e de contato.|
+|BS05A| O sistema deve utilizar os serviços de geolocalização para identificar a localização dos usuários.||
 |BS07| Os clientes devem, uma vez cadastrados, ter acesso instantâneo aos serviços da plataforma, podendo explorar o catálogo de produtos disponíveis e realizar pedidos de entrega imediata.|
 |BS08| O sistema deve garantir que cada produto no catálogo tenha um botão "Visualizar Detalhes", permitindo aos clientes ver informações adicionais, como descrição detalhada, avaliações de outros clientes e opções de tamanho ou cor.|
-|BS09| O sistema deve oferecer a opção de um botão "Editar Carrinho" após os clientes adicionarem itens ao carrinho, permitindo que editem suas seleções, incluindo alterar a quantidade de itens, remover produtos ou adicionar cupons de desconto.|
-|BS10| O sistema deve fornecer um botão "Finalizar Pedido" ao revisar o carrinho, direcionando os clientes ao processo de pagamento, onde podem inserir informações de entrega e concluir a compra.|
-|BS11| O sistema deve garantir que na área de navegação da plataforma estejam disponíveis botões que permitam aos clientes acessar facilmente diferentes seções, como o catálogo de produtos, a página do carrinho e a seção de perfil do usuário.|
-|BS12| O sistema deve possuir botões que promovam a interação dos clientes, permitindo-lhes deixar feedback sobre produtos, avaliações de compras e compartilhar suas experiências nas redes sociais.|
-|BS13| O sistema deve assegurar que haja botões de suporte ao cliente visíveis em todas as páginas da plataforma, oferecendo aos usuários acesso rápido a recursos de ajuda, como chat ao vivo, FAQ e contato por e-mail ou telefone.|
+|BS09| O sistema deve oferecer a opção de um botão "Editar Carrinho" após os clientes adicionarem itens ao carrinho, permitindo que editem suas compras, incluindo alterar a quantidade de itens, remover produtos ou adicionar cupons de desconto.|
+|BS10| O sistema deve fornecer um botão "Finalizar Pedido" ao revisar o carrinho, direcionando os clientes ao pagamento, onde podem inserir informações de entrega e concluir a compra.|
+|BS12| O sistema deve possuir botões que promovam a interação dos clientes, permitindo-lhes deixar feedback sobre produtos, avaliações de compras e compartilhar suas experiências com outros usuários.|
+|BS13| O sistema deve assegurar que haja botões de suporte ao cliente visíveis em todas as páginas da plataforma, oferecendo aos usuários acesso rápido a recursos de ajuda, como FAQ e contato por e-mail ou telefone.|
 |BS14| O sistema deve integrar um botão "Presentear um Amigo" que permite aos clientes comprar produtos como presentes para amigos ou familiares, mesmo que não tenham o endereço de entrega do destinatário no momento da compra. Após a conclusão da compra, o destinatário receberia uma notificação para fornecer o endereço de entrega desejado, mantendo a surpresa do presente.|
 |BS15| O sistema deve oferecer um botão "Experimentar Agora" para certos produtos, permitindo que os clientes visualizem virtualmente como os itens ficariam em seu ambiente antes de fazer a compra. Isso seria possível por meio de realidade aumentada, onde os clientes podem "colocar" o produto em sua casa usando a câmera do smartphone.|
-|BS15| O sistema deve coletar e analisar dados sobre o comportamento do usuário e as preferências de compra para fornecer recomendações personalizadas e melhorar continuamente a experiência do usuário.|
+|BS15| O sistema deve coletar e analisar dados sobre o comportamento do usuário e as preferências de compra para fornecer recomendações personalizadas .|
 |BS15| O sistema deve ser escalável para lidar com um grande volume de usuários e transações, garantindo desempenho e disponibilidade consistentes mesmo durante períodos de pico de uso.|
-|BS15| O sistema deve ser capaz de enviar notificações push para os usuários, informando sobre promoções, atualizações de pedidos e outras informações relevantes para melhorar o engajamento do cliente.|
+|BS15| O sistema deve ser capaz de enviar notificações push para os usuários, informando sobre promoções, atualizações de pedidos e outras informações relevantes.|
 |BS15| O sistema deve oferecer um método seguro e confiável para processar os pagamentos dos clientes, garantindo a proteção das informações financeiras e a integridade das transações.|
-|BS15|O sistema deve exigir que os usuários se autentiquem com credenciais válidas (como e-mail ou número de telefone) para acessar os recursos da plataforma, garantindo a segurança das informações do usuário.|
+|BS15|O sistema deve exigir que os usuários se autentifiquem com credenciais válidas (como e-mail ou número de telefone) para acessar os recursos da plataforma, garantindo a segurança das informações do usuário.|
 
  
 ## Conclusão 🧨
 <p align = "justify">
-Através da aplicação da técnica, foi possível elicitar alguns dos primeiros requisitos do projeto.
+Através da aplicação da técnica, foi possível elicitar alguns dos primeiros requisitos do projeto e entender melhor suas funcionalidades.
 </p>
 ## Referências Bibliográficas 📚
  

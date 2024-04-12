@@ -67,7 +67,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 
 
 
-### 4. Como seria a forma de adicionar do cliente adicionar os produtos ao carinho ?
+### 4. Como será a forma do cliente adicionar os produtos ao carinho ?
+
 <p align = "justify">
 <b>•</b> Basta clicar em "Adicionar ao Carrinho". 
  
@@ -79,7 +80,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 
 ---
  
-### 4. Outras informações pertinentes ao contexto
+### 5. Outras informações sobre o Mall Delivery e seu sistema
 
 <p align = "justify">
 <b>•</b> Com a localização do usuário, a plataforma pode oferecer uma lista personalizada de lojas e produtos disponíveis nas proximidades.
@@ -87,6 +88,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 <b>•</b> O cliente pode solicitar a retirada dos produtos diretamente na loja física ou o serviço de entrega imediata.
  
 <b>•</b> O cliente pode visualizar as avaliações e comentários de outros usuários sobre as lojas físicas e produtos disponíveis no aplicativo.
+
+<b>•</b> O cliente terá recomendações personalizadas com base nas suas compras anteriores.
  
 ---
  
@@ -96,7 +99,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
-   <b>•</b> Para deixar a experiência de compra mais fácil e agradável, nosso aplicativo oferece algumas informações úteis para os clientes. Eles podem ***acompanhar seus pedidos em tempo real***, _saber quando seus produtos serão entregues_ e _ler descrições detalhadas dos itens_ que desejam comprar. Além disso, _notificamos sobre ofertas especiais e eventos importantes_, mantendo-os atualizados. Os clientes também têm _acesso ao histórico de suas compras_ anteriores e podem _entrar em contato conosco_ facilmente se precisarem de ajuda.
+   <b>•</b>  Eles podem acompanhar seus pedidos em tempo real, saber quando seus produtos serão entregues e ler descrições detalhadas de cada item e avaliações de outros usuários. Além disso, o cliente será notificado sobre ofertas especiais e eventos, mantendo-o atualizado. Os clientes também têm acesso ao histórico de suas compras anteriores e podem entrar em contato conosco facilmente se precisarem de ajuda com algum pedido anterior ou em andamento .
    
 
    

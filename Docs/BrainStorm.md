@@ -4,7 +4,13 @@ BRAINSTORM 🧠
  
 ## Introdução 🫰🏻
 <p align = "justify">
-O brainstorming é uma técnica vital para a elicitação de requisitos, possibilitando a colaboração e discussão sobre os diferentes aspectos do projeto de forma criativa e aberta. Durante essa atividade, o diálogo é incentivado para garantir a contribuição de todas as ideias, enquanto as críticas são evitadas para promover um ambiente colaborativo.
+Brainstorming é uma técnica que, por meio do compartilhamento espontâneo de ideias, busca encontrar a solução para um problema ou gerar insights de criatividade. A ideia desse processo é dar vida à máxima “duas cabeças pensam melhor do que uma”.
+
+Sendo assim, é fundamental que o brainstorming envolva um número mais elevado de participantes, de preferência reunindo pessoas ativas na empresa, mas que tragam perspectivas diferentes. Essa pluralidade de ideias é o pilar da técnica. Para que seja bem-sucedido, o processo deve focar em quantidade, não em qualidade.
+
+Assim, é importante que o brainstorming seja completamente livre de críticas. Mesmo as ideias que parecem ineficientes devem ser levadas em conta, afinal, elas podem ser o ponto de partida para a construção de pensamentos mais aprofundados.
+
+Contudo, é importante não confundir essa liberdade de ideias com a falta de um objetivo claro. É crucial que os participantes do processo tenham em mente qual problema querem solucionar ou que tipo de novidade querem desenvolver. Ao final, os melhores insights são extraídos e convertidos em estratégia.
 </p>
  
 ## Metodologia🧩

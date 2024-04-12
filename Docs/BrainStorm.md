@@ -1,21 +1,22 @@
 ---
-BRAINSTORM 🧠
+BRAINSTORM 🧠⚡
 ---
  
-## Introdução 🫰🏻
+## Introdução;  tempestade de ideias 🫰🏻
 <p align = "justify">
-Brainstorming é uma técnica que, por meio do compartilhamento espontâneo de ideias, busca encontrar a solução para um problema ou gerar insights de criatividade. A ideia desse processo é dar vida à máxima “duas cabeças pensam melhor do que uma”.
+Brainstorming é uma técnica que, por meio do compartilhamento espontâneo de ideias, busca encontrar a solução para um problema ou gerar insights de criatividade. “duas cabeças pensam melhor do que uma”.
 
-Sendo assim, é fundamental que o brainstorming envolva um número mais elevado de participantes, de preferência reunindo pessoas ativas na empresa, mas que tragam perspectivas diferentes. Essa pluralidade de ideias é o pilar da técnica. Para que seja bem-sucedido, o processo deve focar em quantidade, não em qualidade.
+Sendo assim, é fundamental que o brainstorming envolva um número mais elevado de participantes, mas que tragam perspectivas diferentes. Essa quantidade de ideias é o centro de tudo. 
 
 Assim, é importante que o brainstorming seja completamente livre de críticas. Mesmo as ideias que parecem ineficientes devem ser levadas em conta, afinal, elas podem ser o ponto de partida para a construção de pensamentos mais aprofundados.
 
 Contudo, é importante não confundir essa liberdade de ideias com a falta de um objetivo claro. É crucial que os participantes do processo tenham em mente qual problema querem solucionar ou que tipo de novidade querem desenvolver. Ao final, os melhores insights são extraídos e convertidos em estratégia.
+ 
 </p>
  
 ## Metodologia🧩
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via discord, iniciando às 21h e encerrando às 01h, dividimos as tarefas para cada integrante do grupo, levando em consideração suas afinidades e habilidades específicas. Conversamos entre nós para garantir que todos os aspectos do projeto fossem abordados de maneira completa e organizada. Além das discussões no Discord, também utilizamos o WhatsApp para comunicação instantânea e fizemos uso de um quadro Kanban no Trello para gerenciar o progresso das tarefas e manter todos os membros da equipe atualizados sobre o status do projeto. Antes da apresentação, realizamos uma reunião para avaliar se tudo estava de acordo com o planejado e fazer os ajustes necessários. As respostas e ideias discutidas foram posteriormente transcritas para documentação, garantindo que nenhum detalhe importante fosse perdido.
+A equipe se reuniu para debater ideias gerais sobre o projeto via discord, iniciando às 21h e encerrando às 01h, dividimos as tarefas para cada integrante do grupo, levando em consideração suas afinidades e habilidades específicas. Conversamos entre nós para garantir que todos os aspectos do projeto fossem abordados de maneira completa e organizada. Além das discussões no Discord, também utilizamos o WhatsApp para comunicação instantânea e fizemos uso de um quadro no Trello para gerenciar o progresso das tarefas e manter todos os membros da equipe atualizados sobre o status do projeto. Antes da apresentação, realizamos uma reunião para avaliar se tudo estava de acordo com o planejado e fazer os ajustes necessários. As respostas e ideias discutidas foram posteriormente transcritas para documentação, garantindo que nenhum detalhe importante fosse perdido.
  
 ## Brainstorm 🧠
  

@@ -45,6 +45,8 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 <b>•</b> Os lojistas, precisam de uma aprovação do administrador da plataforma para garantir a qualidade e integridade das lojas no Marketplace.
  
 <b>•</b> Depois de aprovados, os vendedores devem fornecer uma série de informações para completar seu perfil no app. Isso inclui dados como CNPJ, endereço,logotipos e foto de seus produtos.
+
+<b>•</b> Estamos trabalhando na integração de APIs para conectar os sistemas de frente de loja, logística e pagamento.
  
  
 ---

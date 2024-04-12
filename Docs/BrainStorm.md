@@ -143,6 +143,6 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
  
  
 ## Autor 😍
-| Data | Versão | Descrição | Autor(es) |
+| Data | Versão | Descrição | Autor |
 | -- | -- | -- | -- |
 | 10/04/2024 | 1.0 | Criação do documento | Beatriz Babinski |

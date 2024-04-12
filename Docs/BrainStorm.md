@@ -144,6 +144,7 @@ Através da aplicação da técnica, foi possível elicitar alguns dos primeiros
 > BARBOSA, S. D. J; DA SILVA, B. S. Interação humano-computador. Elsevier, 2010.
 > Slides aula Engenharia de Requisitos; Professora Rebeca Campos Motta.
 > Slides aula Metologias Ágeis; Professora Rebeca Campos Motta.
+> https://rockcontent.com/br/blog/brainstorming/
  
  
 ## Autor 😍

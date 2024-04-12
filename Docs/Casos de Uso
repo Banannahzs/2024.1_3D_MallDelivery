@@ -1,4 +1,4 @@
---Caso de Uso 01: Registro de Lojistas
+##Caso de Uso 01: Registro de Lojistas
 Ator Primário: Lojista
 Descrição: Este caso de uso permite que os lojistas se registrem na plataforma, fornecendo informações como nome da loja, localização, categorias de produtos oferecidos, horários de funcionamento, CNPJ, logo e banners.
 

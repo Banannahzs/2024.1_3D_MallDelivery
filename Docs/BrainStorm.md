@@ -3,22 +3,22 @@ id: brainstorm
 title: Brainstorm
 ---
  
-## Introdução
+## Introdução 🫰🏻
 <p align = "justify">
 O brainstorming é uma técnica vital para a elicitação de requisitos, possibilitando a colaboração e discussão sobre os diferentes aspectos do projeto de forma criativa e aberta. Durante essa atividade, o diálogo é incentivado para garantir a contribuição de todas as ideias, enquanto as críticas são evitadas para promover um ambiente colaborativo.
 </p>
  
-## Metodologia
+## Metodologia🧩
 <p align = "justify">
 A equipe se reuniu para debater ideias gerais sobre o projeto via discord, iniciando às 21h e encerrando às 01h, dividimos as tarefas para cada integrante do grupo, levando em consideração suas afinidades e habilidades específicas. Conversamos entre nós para garantir que todos os aspectos do projeto fossem abordados de maneira completa e organizada. Além das discussões no Discord, também utilizamos o WhatsApp para comunicação instantânea e fizemos uso de um quadro Kanban no Trello para gerenciar o progresso das tarefas e manter todos os membros da equipe atualizados sobre o status do projeto. Antes da apresentação, realizamos uma reunião para avaliar se tudo estava de acordo com o planejado e fazer os ajustes necessários. As respostas e ideias discutidas foram posteriormente transcritas para documentação, garantindo que nenhum detalhe importante fosse perdido.
  
-## Brainstorm
+## Brainstorm 🧠
  
 ## Versão 1.0
  
 ## Perguntas
  
-### 1. Qual o objetivo principal da aplicação?
+### 1. Qual o objetivo principal da aplicação?  🤔 
  
 <p align = "justify">
 <b> •</b> Deve ser uma plataforma onde qualquer pessoa possa encontrar produtos disponíveis em lojas físicas próximas para entrega imediata por aplicativo.
@@ -51,7 +51,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 ---
  
-### 3. Como será a forma de adicionar produtos ao estoque da loja?
+### 3. Como será a forma de adicionar produtos ao estoque da loja? 🏪
  
 <p align = "justify">
 <b>•</b>  O cliente lojista, após ser cadastrado como uma loja parceira, deve acessar sua conta e selecionar a opção de "Adicionar Produto", onde poderá inserir os detalhes do produto disponível em estoque
@@ -67,7 +67,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 
 
 
-### 4. Como será a forma do cliente adicionar os produtos ao carinho ?
+### 4. Como será a forma do cliente adicionar os produtos ao carinho ? 🛒
 
 <p align = "justify">
 <b>•</b> Basta clicar em "Adicionar ao Carrinho". 
@@ -80,7 +80,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 
 ---
  
-### 5. Outras informações sobre o Mall Delivery e seu sistema
+### 5. Outras informações sobre o Mall Delivery e seu sistema 🛍️
 
 <p align = "justify">
 <b>•</b> Com a localização do usuário, a plataforma pode oferecer uma lista personalizada de lojas e produtos disponíveis nas proximidades.
@@ -97,7 +97,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 
 </p>
  
-### 6. Quais informações seriam interessante para o cliente?
+### 6. Quais informações seriam interessante para o cliente? 👨🏽
 <p align = "justify">
    <b>•</b>  Eles podem acompanhar seus pedidos em tempo real, saber quando seus produtos serão entregues e ler descrições detalhadas de cada item e avaliações de outros usuários. Além disso, o cliente será notificado sobre ofertas especiais e eventos, mantendo-o atualizado. Os clientes também têm acesso ao histórico de suas compras anteriores e podem entrar em contato conosco facilmente se precisarem de ajuda com algum pedido anterior ou em andamento .
    
@@ -105,7 +105,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
    
 </p>
  
-### Requisitos elicitados
+### Requisitos elicitados 👌🏼
  
 |ID|Descrição|
 |----|-------------|

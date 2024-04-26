@@ -111,7 +111,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
    
 </p>
  
-### Requisitos elicitados 👌🏼
+### Requisitos Funcionais 👌🏼
  
 |ID|Descrição|
 |----|-------------|
@@ -134,6 +134,22 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 |17| O sistema deve oferecer um método seguro e confiável para processar os pagamentos dos clientes, garantindo a proteção das informações financeiras e a integridade das transações.|
 |18|O sistema deve exigir que os usuários se autentifiquem com credenciais válidas (como e-mail ou número de telefone) para acessar os recursos da plataforma, garantindo a segurança das informações do usuário.|
 
+</p>
+ 
+### Requisitos Não Funcionais 👌🏼
+ 
+|ID|Descrição|
+|----|-------------|
+|01| Os lojistas devem ter a capacidade de se registrar na plataforma, fornecendo informações como nome da loja, localização, categorias de produtos oferecidos, horários de funcionamento, cnpj, logo e banners.|
+|02| O aplicativo deve ser compatível com uma ampla variedade de dispositivos e sistemas operacionais.|
+|03| O sistema deve integrar-se perfeitamente com APIs de sistemas externos, como pontos de venda das lojas, serviços de logística para entregas e pagamento.|
+|04| Os clientes devem desfrutar de um processo de compra simplificado e intuitivo, permitindo que encontrem, selecionem e comprem produtos com facilidade, com a opção de agendar entregas dentro do prazo de até 2 horas.|
+|05| O sistema deve utilizar os serviços de geolocalização para identificar a localização dos usuários.||
+|06| Os clientes devem, uma vez cadastrados, ter acesso instantâneo aos serviços da plataforma, podendo explorar o catálogo de produtos disponíveis e realizar pedidos de entrega imediata.|
+|07| O sistema deve garantir que cada produto no catálogo tenha um botão "Visualizar Detalhes", permitindo aos clientes ver informações adicionais, como descrição detalhada, avaliações de outros clientes e opções de tamanho ou cor.|
+|08| O sistema deve oferecer a opção de um botão "Editar Carrinho" após os clientes adicionarem itens ao carrinho, permitindo que editem suas compras, incluindo alterar a quantidade de itens, remover produtos ou adicionar cupons de desconto.|
+|09| O sistema deve fornecer um botão "Finalizar Pedido" ao revisar o carrinho, direcionando os clientes ao pagamento, onde podem inserir informações de entrega e concluir a compra.|
+|10| O sistema deve possuir botões que promovam a interação dos clientes, permitindo-lhes deixar feedback sobre produtos, avaliações de compras e compartilhar suas experiências com outros usuários.|
  
 ## Conclusão 🧨
 <p align = "justify">

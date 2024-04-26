@@ -118,10 +118,10 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
 |01| Os lojistas devem ter a capacidade de se registrar na plataforma, fornecendo informações como nome da loja, localização, categorias de produtos oferecidos, horários de funcionamento, cnpj, logo e banners.|
 |02| O sistema deve possibilitar o cadstro dos lojistas.|
 |03| O sistema deve possibilitar que os usuários comprem os produtos.|
-|07| O sistema deve possibilitar o login dos usúarios.|
-|08| O sistema deve oferecer a opção de um botão "Editar Carrinho" após os clientes adicionarem itens ao carrinho, permitindo que editem suas compras, incluindo alterar a quantidade de itens, remover produtos ou adicionar cupons de desconto.|
-|09| O sistema deve fornecer um botão "Finalizar Pedido" ao revisar o carrinho, direcionando os clientes ao pagamento, onde podem inserir informações de entrega e concluir a compra.|
-|10| O sistema deve possuir botões que promovam a interação dos clientes, permitindo-lhes deixar feedback sobre produtos, avaliações de compras e compartilhar suas experiências com outros usuários.|
+|04| O sistema deve possibilitar o login dos usúarios.|
+|05| O sistema deve oferecer a opção de um botão "Editar Carrinho" após os clientes adicionarem itens ao carrinho, permitindo que editem suas compras, incluindo alterar a quantidade de itens, remover produtos ou adicionar cupons de desconto.|
+|06| O sistema deve fornecer um botão "Finalizar Pedido" ao revisar o carrinho, direcionando os clientes ao pagamento, onde podem inserir informações de entrega e concluir a compra.|
+|07| O sistema deve possuir botões que promovam a interação dos clientes, permitindo-lhes deixar feedback sobre produtos, avaliações de compras e compartilhar suas experiências com outros usuários.|
 
 
 </p>
@@ -130,10 +130,13 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via discord, inici
  
 |ID|Descrição|
 |----|-------------|
-|03| O sistema deve integrar-se perfeitamente com APIs de sistemas externos, como pontos de venda das lojas, serviços de logística para entregas e pagamento.|
-|04| Os clientes devem desfrutar de um processo de compra simplificado e intuitivo, permitindo que encontrem, selecionem e comprem produtos com facilidade, com a opção de agendar entregas dentro do prazo de até 2 horas.|
-|05| O sistema deve utilizar os serviços de geolocalização para identificar a localização dos usuários.|
-|06| Os clientes devem, uma vez cadastrados, ter acesso instantâneo aos serviços da plataforma, podendo explorar o catálogo de produtos disponíveis e realizar pedidos de entrega imediata.|
+|01| O sistema deve integrar-se perfeitamente com APIs de sistemas externos, como pontos de venda das lojas, serviços de logística para entregas e pagamento.|
+|02| Os clientes devem desfrutar de um processo de compra simplificado e intuitivo, permitindo que encontrem, selecionem e comprem produtos com facilidade, com a opção de agendar entregas dentro do prazo de até 2 horas.|
+|03| O sistema deve utilizar os serviços de geolocalização para identificar a localização dos usuários.|
+|04| Os clientes devem, uma vez cadastrados, ter acesso instantâneo aos serviços da plataforma, podendo explorar o catálogo de produtos disponíveis e realizar pedidos de entrega imediata.|
+|05| O sistema deve ser capaz de manter um desempenho estável, independente da quantidade de usúarios simultâneos. |
+|06| O sistema deve ser compátivel com diversos sistemas operacionais,  |
+
 
 ## Conclusão 🧨
 <p align = "justify">

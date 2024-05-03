@@ -14,9 +14,7 @@
 |202208935079 |  Fernando Mendonça  |
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
-DIAGRAMA DE CLASSE
-DIAGRAMA DE CASOS DE USO 
-PROTOTIPO FIGMA 
+
 ## Screenshots
 
  Quadro Kanban

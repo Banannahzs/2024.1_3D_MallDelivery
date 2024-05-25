@@ -2,7 +2,6 @@ from django.db import models
 # Create your models here.
 from django.utils import timezone 
 from django.urls import reverse 
-
  
 def one_week_hence(): 
 

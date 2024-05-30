@@ -1,0 +1,15 @@
+{% extends "base.html" %} 
+
+{% block content %} 
+
+<!--index.html--> 
+
+
+{% for produto in object_list %} 
+
+<p>{{ produto.nome }} - {{ produto.descricao }} - R$ {{ produto.preco }}</p>
+<hr>
+
+{% endfor %} 
+
+{% endblock %} 

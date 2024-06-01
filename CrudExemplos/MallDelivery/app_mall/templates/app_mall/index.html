@@ -7,7 +7,7 @@
 
 {% for produto in object_list %} 
 
-<p>{{ produto.nome }} - {{ produto.descricao }} - R$ {{ produto.preco }}</p>
+<p>{{ produto.nome }} - R$ {{ produto.preco }} - <a href="{% url 'deletar_produto' produto.pk %}"> Deletar </a></p>
 <hr>
 
 {% endfor %} 

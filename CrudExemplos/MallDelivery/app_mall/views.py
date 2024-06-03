@@ -14,7 +14,17 @@ class ProdutoList(ListView):
     context_object_name = 'produtos'
 
 
+class LojistaList(ListView): 
 
+    model = Lojista
+    template_name = "app_mall/lista_lojista.html" 
+    context_object_name = 'lojistas'
+
+class LojaList(ListView): 
+
+    model = Loja
+    template_name = "app_mall/lista_loja.html" 
+    context_object_name = 'lojas'
 
 class LojistaCreateView(CreateView):
     model = Lojista
@@ -22,10 +32,9 @@ class LojistaCreateView(CreateView):
     template_name = 'cadastro_lojista.html'
     success_url = reverse_lazy('cadastro_lojista')
 
-
 class LojaCreateView(CreateView):
     model = Loja
-    fields = ['nome', 'cnpj', 'descricao']
+    fields = ['nome', 'cnpj', 'descricao', 'lojista']
     template_name = 'cadastro_loja.html'
     success_url = reverse_lazy('cadastro_loja')
 

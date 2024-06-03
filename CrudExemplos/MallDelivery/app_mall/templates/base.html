@@ -1,72 +1,118 @@
-<!-- Base template --> 
+<!-- Base template -->
 
-<!doctype html> 
+<!doctype html>
 
-<html lang="en"> 
+<html lang="en">
 
-<head> 
+<head>
 
-    <!-- Required meta tags --> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8"> 
+    <!-- Simple.css -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Mall Delivery</title>
 
-    <!--Simple.css--> 
+    <style>
+        /* Estilos para o menu de navegação */
 
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css"> 
+        nav {
+            background-color: #ffa970;
+            color: white;
+            padding: 10px;
+        }
 
-    <title>Mall Delivery</title> 
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-</head> 
+        nav ul li {
+            float: left;
+            margin-right: 20px;
+        }
 
- 
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border: #cf692e;
+        }
 
-<body> 
+        nav ul li a:hover {
+            background-color: #cf692e;
+            color: black;
+        }
 
-    <div> 
+        button {
+            background-color: #cf692e;
+            border: #cf692e;
+        }
+    </style>
 
-        <h1 onclick="location.href='{% url "index" %}'"> 
+</head>
 
-            Mall Delivery
+<body>
 
-        </h1> 
+    <!-- Header com menu de navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url "index" %}">Início</a></li>
+                <li><a href="{% url "cadastro_lojista" %}">Cadastrar Lojista</a></li>
+                <li><a href="{% url "cadastro_loja" %}">Cadastrar Loja</a></li>
+                <li><a href="{% url "add_produto" %}">Adicionar Produto</a></li>
+                <li><a href="{% url "lista_lojista" %}">Lista de Lojistas</a></li>
+                <li><a href="{% url "lista_loja" %}">Lista de Lojas</a></li>
+                <div class="area-login">
+                    <form method="GET" action="{% url 'login' %}">
+                      {% csrf_token %}
+                      <button type="submit">Login</button>
+                    </form>
+                    <form method="GET" action="{% url 'signup' %}">
+                      {% csrf_token %}
+                      <button type="submit">Signup</button>
+                    </form>
+                  </div>
+            </ul>
+        </nav>
+    </header>
 
-        <h1 onclick="location.href='{% url "cadastro_lojista" %}'"> 
+    <div>
+        {% block content %}
+        This content will be replaced by different html code for each page.
+        {% endblock %}
+    </div>
 
-            Cadastrar Lojista
+    <footer>
+        <h6>MALL DELIVERY</h6>
 
-        </h1> 
+        <style>
+            footer {
+            background-color: #ffa970;
+            color: white;
+            text-align: center;
+            padding: 0;
+            height: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
 
-        
-        <h1 onclick="location.href='{% url "cadastro_loja" %}'"> 
+        footer h6 {
+            color: #cf692e;
+            margin-top: 0;
+        }
+        </style>
+    </footer>
 
-            Cadastrar Loja
+</body>
 
-        </h1> 
-
-        <h1 onclick="location.href='{% url "add_produto" %}'"> 
-
-            Adicionar Produto
-
-        </h1> 
-
-    </div> 
-
-    
-
-    <div> 
-
-        {% block content %} 
-
-        This content will be replaced by different html code for each page. 
-
-        {% endblock %} 
-
-    </div> 
-
-</body> 
-
- 
-
-</html> 
+</html>

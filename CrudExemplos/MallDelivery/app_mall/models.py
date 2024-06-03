@@ -16,6 +16,7 @@ class Loja(models.Model):
     nome = models.CharField(max_length=255)
     cnpj = models.CharField(max_length=18)
     descricao = models.TextField(blank=True, null=True)
+    lojista = models.ForeignKey(Lojista, related_name='lojista', on_delete=models.CASCADE)
 
     def __str__(self):
         return self.nome

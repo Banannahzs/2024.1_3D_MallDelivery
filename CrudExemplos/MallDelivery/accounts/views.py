@@ -1,8 +1,14 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from .forms import SignUpForm, EditProfileForm
+from django.urls import reverse
+
+
+def logout_view(request):
+    logout(request)
+    return redirect(reverse('app_mall/index'))
 
 def signup(request):
     if request.method == 'POST':

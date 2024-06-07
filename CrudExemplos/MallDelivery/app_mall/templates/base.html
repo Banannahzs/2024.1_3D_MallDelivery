@@ -70,16 +70,26 @@
                 <li><a href="{% url "add_produto" %}">Adicionar Produto</a></li>
                 <li><a href="{% url "lista_lojista" %}">Lista de Lojistas</a></li>
                 <li><a href="{% url "lista_loja" %}">Lista de Lojas</a></li>
-                <div class="area-login">
-                    <form method="GET" action="{% url 'login' %}">
-                      {% csrf_token %}
-                      <button type="submit">Login</button>
-                    </form>
-                    <form method="GET" action="{% url 'signup' %}">
-                      {% csrf_token %}
-                      <button type="submit">Signup</button>
-                    </form>
-                  </div>
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'profile' %}">Perfil</a></li>
+                    <li>
+                        <form method="post" action="{% url 'logout' %}">
+                            {% csrf_token %}
+                            <button type="submit">Logout</button>
+                        </form>
+                    </li>
+                {% else %}
+                    <div class="area-login">
+                        <form method="GET" action="{% url 'login' %}">
+                            {% csrf_token %}
+                            <button type="submit">Login</button>
+                        </form>
+                        <form method="GET" action="{% url 'signup' %}">
+                            {% csrf_token %}
+                            <button type="submit">Signup</button>
+                        </form>
+                    </div>
+                {% endif %}
             </ul>
         </nav>
     </header>
@@ -94,13 +104,13 @@
         <h6>MALL DELIVERY</h6>
 
         <style>
-            footer {
+        footer {
             background-color: #ffa970;
             color: white;
             text-align: center;
             padding: 0;
-            height: 10px;
-            position: fixed;
+            height: 5px;
+            position:relative;
             left: 0;
             bottom: 0;
             width: 100%;

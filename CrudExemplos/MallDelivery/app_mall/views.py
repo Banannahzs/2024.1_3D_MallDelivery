@@ -3,7 +3,8 @@ from django.shortcuts import render
 # Create your views here.
 
 from django.views.generic import ListView, CreateView, DeleteView
-
+from django.views.generic import UpdateView
+from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import  Produto, Lojista, Loja
 from django.urls import reverse_lazy
  
@@ -25,24 +26,30 @@ class LojaList(ListView):
     model = Loja
     template_name = "app_mall/lista_loja.html" 
     context_object_name = 'lojas'
-
-class LojistaCreateView(CreateView):
+    
+class LojistaCreateView(LoginRequiredMixin, CreateView):
     model = Lojista
     fields = ['nome', 'CPF', 'telefone', 'email']
     template_name = 'cadastro_lojista.html'
     success_url = reverse_lazy('cadastro_lojista')
 
-class LojaCreateView(CreateView):
+class LojaCreateView(LoginRequiredMixin, CreateView):
     model = Loja
     fields = ['nome', 'cnpj', 'descricao', 'lojista']
     template_name = 'cadastro_loja.html'
     success_url = reverse_lazy('cadastro_loja')
 
-class ProdutoCreateView(CreateView):
+class ProdutoCreateView(LoginRequiredMixin, CreateView):
     model = Produto
     fields = ['nome', 'preco', 'descricao', 'estoque', 'categoria', 'loja']
     template_name = 'add_produto.html'
     success_url = reverse_lazy('add_produto')
+
+class ProdutoUpdateView(LoginRequiredMixin, UpdateView):
+    model = Produto
+    fields = ['nome', 'preco', 'descricao', 'estoque', 'categoria', 'loja']
+    template_name = 'update_produto.html'
+    success_url = reverse_lazy('index')
 
 class ProdutoDeleteView(DeleteView): 
 

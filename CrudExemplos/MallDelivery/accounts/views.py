@@ -4,6 +4,20 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from .forms import SignUpForm, EditProfileForm
 
+from django.contrib.auth.views import LoginView
+from django.urls import reverse_lazy
+
+from django.contrib.auth import logout
+
+class CustomLoginView(LoginView):
+    template_name = 'registration/login.html'
+    success_url = reverse_lazy('app_mall:index')
+    
+    
+def logout_view(request):
+    logout(request)
+    return redirect('login')
+
 def signup(request):
     if request.method == 'POST':
         form = SignUpForm(request.POST)

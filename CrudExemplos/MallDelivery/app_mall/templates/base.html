@@ -94,7 +94,8 @@
                 <li><a href="{% url "index" %}">Início</a></li>
                 <li><a href="{% url "cadastro_lojista" %}">Cadastrar Lojista</a></li>
                 <li><a href="{% url "cadastro_loja" %}">Cadastrar Loja</a></li>
-                <li><a href="{% url "add_produto" %}">Adicionar Produto</a></li>
+                <li><a href="{% url "add_produto" %}">Cadastrar Produto</a></li>
+                <li><a href="{% url "lista_produtos" %}">Lista de Produtos</a></li>
                 <li><a href="{% url "lista_lojista" %}">Lista de Lojistas</a></li>
                 <li><a href="{% url "lista_loja" %}">Lista de Lojas</a></li>
                 {% if user.is_authenticated %}

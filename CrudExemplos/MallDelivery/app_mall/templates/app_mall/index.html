@@ -1,16 +1,47 @@
 {% extends "base.html" %} 
 
-{% block content %} 
+{% block content %}
 
-<!--index.html--> 
+<h1>Lista de Empregados</h1>
 
+<form method="GET" action="">
+    <input type="text" name="search" placeholder="Busque pelo Nome">
+    <select name="categoria">
+        <option value="">Selecion um categoria</option>
+        {% for categoria in categorias %}
+            <option value="{{ categoria }}">{{ categoria }}</option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Filter">
+</form>
 
-{% for produto in object_list %} 
+<br>
+<div class="container">
+  <table>
+    <tbody>
+        <div class="cards-container">
+            {% for produto in produtos %}        
+            <div class="card">
+                <p><b>{{ produto.nome }}</b></p>
+                <p>{{ produto.categoria }}</p>
+                <!-- Adicione mais detalhes do produto aqui -->
+            </div>
+            </a>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
 
-<p>{{ produto.nome }} - R$ {{ produto.preco }} - <a href="{% url 'deletar_produto' produto.pk %}"> Deletar </a>
-    <a href="{% url 'update_produto' produto.pk %}">Editar</a> </p>
-<hr>
+<!-- Pagination code here -->
+{% if produtos.has_previous %}
+<a href="?page=1">Primeiro</a>
+<a href="?page={{ produtos.previous_page_number }}">Anterior</a>
+{% endif %}
 
-{% endfor %} 
+<span>Página {{ produtos.number }} de {{ produtos.paginator.num_pages }}</span>
 
-{% endblock %} 
+{% if produtos.has_next %}
+<br>
+<a href="?page={{ produtos.next_page_number }}">>></a>
+<a href="?page={{ produtos.paginator.num_pages }}"><<</a>
+{% endif %} {% endblock %}

@@ -7,11 +7,13 @@ from django.views.generic import UpdateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import  Produto, Lojista, Loja
 from django.urls import reverse_lazy
+from django.core.paginator import Paginator
+from django.db.models import Q
  
 class ProdutoList(ListView): 
 
     model = Produto 
-    template_name = "app_mall/index.html" 
+    template_name = "lista_produtos.html" 
     context_object_name = 'produtos'
 
 
@@ -79,3 +81,28 @@ class ProdutoDeleteView(LoginRequiredMixin, DeleteView):
     template_name = 'produto_confirm_delete.html'
     success_url = reverse_lazy('index')
 
+def feed_produtos(request):
+    produto = Produto.objects.all()
+    categoria = Produto.objects.values_list('categoria', flat=True).distinct()
+    
+    query = request.GET.get('search')
+    sort_by = request.GET.get('sort_by', 'nome')  # Default sort field is 'nome'
+    filter_by = request.GET.get('filter_by', None)  # Default filter field is None
+    
+    if query:
+        produto_list = Produto.objects.filter(Q(nome__icontains=query))
+    else:
+        produto_list = Produto.objects.all()
+    
+    if filter_by:
+        produto_list = produto_list.filter(categoria=filter_by)
+
+    produto_list = produto_list.order_by(sort_by)
+    
+        
+    # Pagination Code    
+    paginator = Paginator(produto_list, 4)  # Show 10 empregados per page.
+    page_number = request.GET.get('page')
+    produto = paginator.get_page(page_number)
+    
+    return render(request, 'app_mall/index.html', {'produtos': produto, 'categoria': categoria})

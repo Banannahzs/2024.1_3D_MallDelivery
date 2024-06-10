@@ -11,6 +11,10 @@ urlpatterns = [
     path('lista_lojista/', views.LojistaList.as_view(), name='lista_lojista'),
     path('lista_loja/', views.LojaList.as_view(), name='lista_loja'),
     path('produto/<int:pk>/deletar/', views.ProdutoDeleteView.as_view(), name='deletar_produto'),
+    path('lojista/<int:pk>/deletar/', views.LojistaDeleteView.as_view(), name='deletar_lojista'),
+    path('loja/<int:pk>/deletar/', views.LojaDeleteView.as_view(), name='deletar_loja'),
     path('produto/<pk>/update/', views.ProdutoUpdateView.as_view(), name='update_produto'),
+    path('lojista/<pk>/update/', views.LojistaUpdateView.as_view(), name='update_lojista'),
+    path('loja/<pk>/update/', views.LojaUpdateView.as_view(), name='update_loja'),
     path('', views.ProdutoList.as_view(), name='index'), 
 ] 

@@ -7,7 +7,8 @@
     {% for loja in lojas %}
     <li>
         <div>
-            {{ loja.nome }}
+            <p>{{ loja.nome }} <a href="{% url 'deletar_loja' loja.pk %}"> Deletar </a> 
+                <a href="{% url 'update_loja' loja.pk %}">Editar</a> </p>
         </div>
     </li>
     {% endfor %}

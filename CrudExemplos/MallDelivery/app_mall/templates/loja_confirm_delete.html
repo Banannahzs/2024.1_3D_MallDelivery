@@ -1,0 +1,40 @@
+{% extends "base.html" %} 
+
+ 
+
+{% block content %} 
+
+
+ 
+
+<h3>Deletar Loja</h3> 
+
+ 
+
+<p>Tem certeza que deseja deletar <i>{{ object.nome }}</i>?</p> 
+
+ 
+
+<form method="POST"> 
+
+    {% csrf_token %} 
+
+    <input 
+
+        value="Sim, deletar." 
+
+        type="submit"> 
+
+</form> 
+
+<input 
+
+    value="Cancelar" 
+
+    type="button" 
+
+    onclick="location.href='{% url "index" %}';"> 
+
+ 
+
+{% endblock %} 

@@ -33,11 +33,33 @@ class LojistaCreateView(LoginRequiredMixin, CreateView):
     template_name = 'cadastro_lojista.html'
     success_url = reverse_lazy('cadastro_lojista')
 
+class LojistaUpdateView(LoginRequiredMixin, UpdateView):
+    model = Lojista
+    fields = ['nome', 'CPF', 'telefone', 'email']
+    template_name = 'update_lojista.html'
+    success_url = reverse_lazy('lista_lojista')
+
+class LojistaDeleteView(LoginRequiredMixin, DeleteView):
+    model = Lojista
+    template_name = 'lojista_confirm_delete.html'
+    success_url = reverse_lazy('lista_lojista')
+
 class LojaCreateView(LoginRequiredMixin, CreateView):
     model = Loja
     fields = ['nome', 'cnpj', 'descricao', 'lojista']
     template_name = 'cadastro_loja.html'
     success_url = reverse_lazy('cadastro_loja')
+
+class LojaUpdateView(LoginRequiredMixin, UpdateView):
+    model = Loja
+    fields = ['nome', 'cnpj', 'descricao', 'lojista']
+    template_name = 'update_loja.html'
+    success_url = reverse_lazy('lista_loja')
+
+class LojaDeleteView(LoginRequiredMixin, DeleteView):
+    model = Loja
+    template_name = 'loja_confirm_delete.html'
+    success_url = reverse_lazy('lista_loja')
 
 class ProdutoCreateView(LoginRequiredMixin, CreateView):
     model = Produto
@@ -51,7 +73,7 @@ class ProdutoUpdateView(LoginRequiredMixin, UpdateView):
     template_name = 'update_produto.html'
     success_url = reverse_lazy('index')
 
-class ProdutoDeleteView(DeleteView): 
+class ProdutoDeleteView(LoginRequiredMixin, DeleteView): 
 
     model = Produto
     template_name = 'produto_confirm_delete.html'

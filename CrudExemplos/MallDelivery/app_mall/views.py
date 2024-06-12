@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
-from django.views.generic import ListView, CreateView, DeleteView
+from django.views.generic import ListView, CreateView, DeleteView, DetailView
 from django.views.generic import UpdateView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import  Produto, Lojista, Loja
@@ -81,13 +81,20 @@ class ProdutoDeleteView(LoginRequiredMixin, DeleteView):
     template_name = 'produto_confirm_delete.html'
     success_url = reverse_lazy('index')
 
+
+class ProdutoDetailView(DetailView):
+    model = Produto
+    template_name = 'app_mall/produto_detalhe.html'
+    context_object_name = 'produto'
+
+
 def feed_produtos(request):
     produto = Produto.objects.all()
     categoria = Produto.objects.values_list('categoria', flat=True).distinct()
     
     query = request.GET.get('search')
     sort_by = request.GET.get('sort_by', 'nome')  # Default sort field is 'nome'
-    filter_by = request.GET.get('filter_by', None)  # Default filter field is None
+    filter_by = request.GET.get('categoria', None)  # Default filter field is None
     
     if query:
         produto_list = Produto.objects.filter(Q(nome__icontains=query))
@@ -105,4 +112,4 @@ def feed_produtos(request):
     page_number = request.GET.get('page')
     produto = paginator.get_page(page_number)
     
-    return render(request, 'app_mall/index.html', {'produtos': produto, 'categoria': categoria})
+    return render(request, 'app_mall/index.html', {'produtos': produto, 'categorias': categoria})

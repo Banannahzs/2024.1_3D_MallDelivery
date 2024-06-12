@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="produto-detalhe">
+    <h1>{{ produto.nome }}</h1>
+    <p><strong>Categoria:</strong> {{ produto.categoria }}</p>
+    <p><strong>Preço:</strong> R$ {{ produto.preco }}</p>
+    <p><strong>Descrição:</strong> {{ produto.descricao }}</p>
+    <p><strong>Estoque:</strong> {{ produto.estoque }}</p>
+    <p><strong>Loja:</strong> {{ produto.loja }}</p>
+    <!-- Adicione mais detalhes conforme necessário -->
+</div>
+{% endblock %}

@@ -2,17 +2,60 @@
 
 {% block content %}
 
-<h1>Lista de Empregados</h1>
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px; /* Espaçamento entre os cards */
+        justify-content: center;
+    }
+    
+    .card {
+        background-color: #898dda;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        width: 150px;
+        text-align: center;
+        transition: transform 0.2s ease-in-out; 
+        margin-bottom: 15px;
+}
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    .card p {
+        margin: 8px 0;
+        color: #fff;
+    }
+
+    .card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    </style>
+
+
+<h1>Lista de produtos</h1>
 
 <form method="GET" action="">
     <input type="text" name="search" placeholder="Busque pelo Nome">
     <select name="categoria">
-        <option value="">Selecion um categoria</option>
+        <option value="">Todos</option>
         {% for categoria in categorias %}
             <option value="{{ categoria }}">{{ categoria }}</option>
         {% endfor %}
     </select>
-    <input type="submit" value="Filter">
+    <input type="submit" value="Filtrar">
 </form>
 
 <br>
@@ -22,11 +65,14 @@
         <div class="cards-container">
             {% for produto in produtos %}        
             <div class="card">
+                <a href="{% url 'produto_detalhe' produto.pk %}">
                 <p><b>{{ produto.nome }}</b></p>
+                <p>{{ produto.preco }}</p>
                 <p>{{ produto.categoria }}</p>
                 <!-- Adicione mais detalhes do produto aqui -->
             </div>
             </a>
+        <hr>
     {% endfor %}
     </tbody>
   </table>

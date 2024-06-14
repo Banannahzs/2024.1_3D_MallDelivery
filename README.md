@@ -15,6 +15,10 @@
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
 
+## Pitch
+https://app.pitch.com/app/presentation/7991c92d-b181-4828-a73a-6190781c8c4f/648eade3-de93-4f16-bcac-9ab0a5fe3df7
+
+
 ## Screenshots
 
  Quadro Kanban

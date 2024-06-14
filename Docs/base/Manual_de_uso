@@ -1,1 +1,78 @@
+Índice
+-	Tela inicial / feed de produtos
+- Tela de Login
+- Tela de SingUp
+- Tela de Cadastro de Lojista
+- Tela de Cadastro de Loja
+- Tela de Lista de Produto
+- Tela de Cadastro de Produtos
+- Lista de lojistas
+- Lista de lojas
+
+- Filtros de Pesquisa
+
+1. Introdução
+Bem-vindo ao Manual de Utilização do Mall Delivery! Este guia foi desenvolvido para fornecer a você todas as informações necessárias para navegar e utilizar eficientemente nosso site, garantindo uma experiência de compra online prática, segura e agradável.
+
+2. Tela Inicial
+Ao acessar o sistema "Mall Delivery", você será direcionado para um feed de produtos disponíveis em nossa loja 
+
+- No cabeçalho da página você tera a opção de ser redirecionado através de um clique para a :
+-  início
+- Página de cadastro de lojistas 
+- Página de cadastro de lojas
+- Página de cadastro de produtos 
+- Página de lista de produtos
+- Página de lista de lojistas
+- Página de lista de lojas
+- Página de login / Singup
+ 
+
+3. Tela de Login
+As páginas de cadastros você precisará fazer login. Na tela de login, insira seu nome de usuário e senha para ter acesso a mais conteúdos 
+⦁	Usuário: Insira seu nome de usuário.
+⦁	Password: Insira sua senha.
+⦁	Fazer Login: Clique para acessar sua conta.
+⦁ Esqueci Minha Senha: Clique para recuperar sua senha.
+⦁	Cadastre-se: Página para criar uma nova conta, caso você ainda não tenha uma.
+ 
+
+4. Tela de Cadastro de Lojista
+Se você é um lojista e deseja se cadastrar no sistema, acesse a tela de cadastro através do link "Cadastre-se" no cabeçalho. Preencha os campos obrigatórios para criar sua conta.
+Campos obrigatórios:
+⦁	Nome
+⦁ Cpf
+⦁ Telefone
+⦁ Email
+
+Clique em Cadastrar para finalizar seu cadastro, automaticamente você será redirecionado para a tela ínicial e um botão de logout para sair do cadastro
+ 
+
+5. Tela Cadastro de lojas 
+Após fazer login , você terá acesso á pagina de cadastro de lojas, onde será necessário inserir as seguintes informações, e clicar no botão de cadastro de lojas :
+
+⦁ Nome 
+⦁ CNPJ
+⦁ Descrição
+⦁ Lojistas
+
+6.   Tela de Cadastro de produtos 
+Após fazer login, você será terá acesso  à tela de  cadastro de produtos dispoíveis. Esta tela e permite o usuário administrador cadastrar  produtos.
+Para cadastrar jum produto será necessário inserir as seguintes informações:
+⦁	Nome 
+⦁	Preço
+⦁ Descrição do produto
+⦁ Estoque
+⦁ Categoria 
+⦁ Loja
+
+7. Lista de Lojistas 
+Ao fazer cadastro você terá acesso a lista de lojistas que exibirá todos os lojistas cadastrados no sistema e a opção de editar e deletar o mesmo. 
+
+8. Lista de Lojas 
+Ao fazer cadastro você terá acesso a lista de loja que exibirá todas as lojas cadastradas no sistema e a opção de editar e deletar a mesma. 
+
+9. Lista de Produtos
+Ao fazer cadastro você terá acesso a lista de produtos que exibirá todos os lojistas cadastrados no sistema e a opção de editar e deletar o mesmo. 
+
 
